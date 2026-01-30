@@ -1,0 +1,153 @@
+{
+  "app": {
+    "name": "Sola Admin Dashboard",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again",
+    "noData": "No data available"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "tickets": "Tickets",
+    "users": "Users",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "loginButton": "Sign in",
+    "loggingIn": "Signing in...",
+    "loginError": "Invalid email or password",
+    "welcomeBack": "Welcome back",
+    "loginSubtitle": "Sign in to your account to continue",
+    "accessDenied": "Access Denied",
+    "accessDeniedMessage": "You don't have permission to access this page."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "totalTickets": "Total Tickets",
+    "openTickets": "Open Tickets",
+    "totalUsers": "Users",
+    "recentActivity": "Recent Activity",
+    "ticketsOverTime": "Tickets Over Time",
+    "ticketsByStatus": "Tickets by Status",
+    "last14Days": "Last 14 days",
+    "noActivity": "No recent activity"
+  },
+  "tickets": {
+    "title": "Tickets",
+    "allTickets": "All Tickets",
+    "newTicket": "New Ticket",
+    "ticketDetails": "Ticket Details",
+    "createDescription": "Create a new support ticket",
+    "titlePlaceholder": "Enter ticket title...",
+    "descriptionPlaceholder": "Describe the issue in detail...",
+    "search": "Search tickets...",
+    "filterStatus": "Filter by status",
+    "filterPriority": "Filter by priority",
+    "all": "All",
+    "id": "ID",
+    "ticketTitle": "Title",
+    "status": "Status",
+    "priority": "Priority",
+    "assignee": "Assignee",
+    "createdAt": "Created",
+    "updatedAt": "Updated",
+    "description": "Description",
+    "comments": "Comments",
+    "addComment": "Add comment",
+    "commentPlaceholder": "Write a comment...",
+    "noTickets": "No tickets found",
+    "noComments": "No comments yet",
+    "deleteConfirm": "Are you sure you want to delete this ticket?",
+    "deleteSuccess": "Ticket deleted successfully",
+    "updateSuccess": "Ticket updated successfully",
+    "createSuccess": "Ticket created successfully",
+    "unassigned": "Unassigned"
+  },
+  "ticketStatus": {
+    "open": "Open",
+    "in_progress": "In Progress",
+    "closed": "Closed"
+  },
+  "ticketPriority": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High"
+  },
+  "users": {
+    "title": "Users",
+    "allUsers": "All Users",
+    "newUser": "New User",
+    "editUser": "Edit User",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "createdAt": "Member since",
+    "noUsers": "No users found",
+    "deleteConfirm": "Are you sure you want to delete this user?",
+    "deleteSuccess": "User deleted successfully",
+    "updateSuccess": "User updated successfully",
+    "createSuccess": "User created successfully"
+  },
+  "roles": {
+    "admin": "Admin",
+    "staff": "Staff",
+    "viewer": "Viewer"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "profile": "Profile",
+    "profileName": "Display Name",
+    "saveChanges": "Save changes",
+    "changesSaved": "Settings saved successfully"
+  },
+  "table": {
+    "noResults": "No results found",
+    "loading": "Loading...",
+    "showing": "Showing",
+    "of": "of",
+    "results": "results",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "create": "Create",
+    "update": "Update",
+    "confirm": "Confirm",
+    "close": "Close"
+  },
+  "time": {
+    "justNow": "Just now"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email",
+    "minLength": "Must be at least {{min}} characters",
+    "maxLength": "Must be at most {{max}} characters",
+    "generic": "Something went wrong. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "unauthorized": "You are not authorized to perform this action."
+  },
+  "validation": {
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email address",
+    "passwordRequired": "Password is required",
+    "passwordMin": "Password must be at least 6 characters"
+  }
+}

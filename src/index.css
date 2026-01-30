@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sola Admin Dashboard Design System
+ * All colors use HSL format for consistency
+ * Semantic tokens enable theming and maintainability
+ */
+
+@layer base {
+  :root {
+    /* Core backgrounds */
+    --background: 210 20% 98%;
+    --foreground: 222 47% 11%;
+
+    /* Card/panel surfaces */
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    /* Popover/dropdown surfaces */
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Primary brand color - Professional indigo */
+    --primary: 226 70% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Subtle slate */
+    --secondary: 215 20% 95%;
+    --secondary-foreground: 222 47% 11%;
+
+    /* Muted elements */
+    --muted: 215 20% 94%;
+    --muted-foreground: 215 16% 47%;
+
+    /* Accent for highlights */
+    --accent: 215 20% 94%;
+    --accent-foreground: 222 47% 11%;
+
+    /* Destructive actions */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Success states */
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+
+    /* Warning states */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    /* Info states */
+    --info: 199 89% 48%;
+    --info-foreground: 0 0% 100%;
+
+    /* Borders and inputs */
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 226 70% 55%;
+
+    --radius: 0.5rem;
+
+    /* Sidebar - Darker for contrast */
+    --sidebar-background: 222 47% 11%;
+    --sidebar-foreground: 215 20% 85%;
+    --sidebar-primary: 226 70% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 222 35% 18%;
+    --sidebar-accent-foreground: 215 20% 95%;
+    --sidebar-border: 222 35% 20%;
+    --sidebar-ring: 226 70% 55%;
+    --sidebar-muted: 215 16% 57%;
+
+    /* Chart colors for data visualization */
+    --chart-1: 226 70% 55%;
+    --chart-2: 142 71% 45%;
+    --chart-3: 38 92% 50%;
+    --chart-4: 262 83% 58%;
+    --chart-5: 0 84% 60%;
+  }
+
+  .dark {
+    --background: 222 47% 6%;
+    --foreground: 210 20% 98%;
+
+    --card: 222 47% 9%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 222 47% 9%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 226 70% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 222 35% 15%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 222 35% 15%;
+    --muted-foreground: 215 20% 60%;
+
+    --accent: 222 35% 18%;
+    --accent-foreground: 210 20% 98%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --info: 199 89% 48%;
+    --info-foreground: 0 0% 100%;
+
+    --border: 222 35% 18%;
+    --input: 222 35% 18%;
+    --ring: 226 70% 60%;
+
+    --sidebar-background: 222 47% 5%;
+    --sidebar-foreground: 215 20% 85%;
+    --sidebar-primary: 226 70% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 222 35% 12%;
+    --sidebar-accent-foreground: 215 20% 95%;
+    --sidebar-border: 222 35% 12%;
+    --sidebar-ring: 226 70% 60%;
+    --sidebar-muted: 215 16% 50%;
+
+    --chart-1: 226 70% 60%;
+    --chart-2: 142 71% 50%;
+    --chart-3: 38 92% 55%;
+    --chart-4: 262 83% 63%;
+    --chart-5: 0 84% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Custom scrollbar for webkit browsers */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/30;
+  }
+}
+
+@layer components {
+  /* Skeleton animation for loading states */
+  .skeleton-pulse {
+    @apply animate-pulse bg-muted;
+  }
+
+  /* Focus visible ring for accessibility */
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2;
+  }
+
+  /* Glass effect for overlays */
+  .glass {
+    @apply bg-background/80 backdrop-blur-sm;
+  }
+}

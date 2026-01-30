@@ -1,0 +1,153 @@
+{
+  "app": {
+    "name": "Sola Admin Dashboard",
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Erneut versuchen",
+    "noData": "Keine Daten verfügbar"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "tickets": "Tickets",
+    "users": "Benutzer",
+    "settings": "Einstellungen",
+    "logout": "Abmelden"
+  },
+  "auth": {
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "rememberMe": "Angemeldet bleiben",
+    "loginButton": "Anmelden",
+    "loggingIn": "Anmeldung läuft...",
+    "loginError": "Ungültige E-Mail oder Passwort",
+    "welcomeBack": "Willkommen zurück",
+    "loginSubtitle": "Melden Sie sich an, um fortzufahren",
+    "accessDenied": "Zugriff verweigert",
+    "accessDeniedMessage": "Sie haben keine Berechtigung, auf diese Seite zuzugreifen."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen zurück",
+    "totalTickets": "Alle Tickets",
+    "openTickets": "Offene Tickets",
+    "totalUsers": "Benutzer",
+    "recentActivity": "Letzte Aktivitäten",
+    "ticketsOverTime": "Tickets im Zeitverlauf",
+    "ticketsByStatus": "Tickets nach Status",
+    "last14Days": "Letzte 14 Tage",
+    "noActivity": "Keine aktuellen Aktivitäten"
+  },
+  "tickets": {
+    "title": "Tickets",
+    "allTickets": "Alle Tickets",
+    "newTicket": "Neues Ticket",
+    "ticketDetails": "Ticket-Details",
+    "createDescription": "Ein neues Support-Ticket erstellen",
+    "titlePlaceholder": "Ticket-Titel eingeben...",
+    "descriptionPlaceholder": "Beschreiben Sie das Problem im Detail...",
+    "search": "Tickets durchsuchen...",
+    "filterStatus": "Nach Status filtern",
+    "filterPriority": "Nach Priorität filtern",
+    "all": "Alle",
+    "id": "ID",
+    "ticketTitle": "Titel",
+    "status": "Status",
+    "priority": "Priorität",
+    "assignee": "Zugewiesen an",
+    "createdAt": "Erstellt",
+    "updatedAt": "Aktualisiert",
+    "description": "Beschreibung",
+    "comments": "Kommentare",
+    "addComment": "Kommentar hinzufügen",
+    "commentPlaceholder": "Schreiben Sie einen Kommentar...",
+    "noTickets": "Keine Tickets gefunden",
+    "noComments": "Noch keine Kommentare",
+    "deleteConfirm": "Sind Sie sicher, dass Sie dieses Ticket löschen möchten?",
+    "deleteSuccess": "Ticket erfolgreich gelöscht",
+    "updateSuccess": "Ticket erfolgreich aktualisiert",
+    "createSuccess": "Ticket erfolgreich erstellt",
+    "unassigned": "Nicht zugewiesen"
+  },
+  "ticketStatus": {
+    "open": "Offen",
+    "in_progress": "In Bearbeitung",
+    "closed": "Geschlossen"
+  },
+  "ticketPriority": {
+    "low": "Niedrig",
+    "medium": "Mittel",
+    "high": "Hoch"
+  },
+  "users": {
+    "title": "Benutzer",
+    "allUsers": "Alle Benutzer",
+    "newUser": "Neuer Benutzer",
+    "editUser": "Benutzer bearbeiten",
+    "name": "Name",
+    "email": "E-Mail",
+    "role": "Rolle",
+    "createdAt": "Mitglied seit",
+    "noUsers": "Keine Benutzer gefunden",
+    "deleteConfirm": "Sind Sie sicher, dass Sie diesen Benutzer löschen möchten?",
+    "deleteSuccess": "Benutzer erfolgreich gelöscht",
+    "updateSuccess": "Benutzer erfolgreich aktualisiert",
+    "createSuccess": "Benutzer erfolgreich erstellt"
+  },
+  "roles": {
+    "admin": "Administrator",
+    "staff": "Mitarbeiter",
+    "viewer": "Betrachter"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "language": "Sprache",
+    "theme": "Design",
+    "themeLight": "Hell",
+    "themeDark": "Dunkel",
+    "themeSystem": "System",
+    "profile": "Profil",
+    "profileName": "Anzeigename",
+    "saveChanges": "Änderungen speichern",
+    "changesSaved": "Einstellungen erfolgreich gespeichert"
+  },
+  "table": {
+    "noResults": "Keine Ergebnisse gefunden",
+    "loading": "Laden...",
+    "showing": "Zeige",
+    "of": "von",
+    "results": "Ergebnissen",
+    "previous": "Zurück",
+    "next": "Weiter"
+  },
+  "actions": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "view": "Ansehen",
+    "create": "Erstellen",
+    "update": "Aktualisieren",
+    "confirm": "Bestätigen",
+    "close": "Schließen"
+  },
+  "time": {
+    "justNow": "Gerade eben"
+  },
+  "errors": {
+    "required": "Dieses Feld ist erforderlich",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "minLength": "Muss mindestens {{min}} Zeichen haben",
+    "maxLength": "Darf höchstens {{max}} Zeichen haben",
+    "generic": "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut.",
+    "network": "Netzwerkfehler. Bitte überprüfen Sie Ihre Verbindung.",
+    "unauthorized": "Sie sind nicht berechtigt, diese Aktion durchzuführen."
+  },
+  "validation": {
+    "emailRequired": "E-Mail ist erforderlich",
+    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "passwordRequired": "Passwort ist erforderlich",
+    "passwordMin": "Das Passwort muss mindestens 6 Zeichen haben"
+  }
+}

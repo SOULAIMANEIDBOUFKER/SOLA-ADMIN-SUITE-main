@@ -1,4 +1,4 @@
-# SolaDesk — Ticketing Admin Dashboard (React + TypeScript)
+#SOLA-ADMIN-SUITE— Ticketing Admin Dashboard (React + TypeScript)
 
 A modern **frontend-only** ticketing dashboard with **role-based access**, **DE/EN i18n**, and a clean **dark UI** built for portfolio/demo use.
 
